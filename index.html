@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PÁGINA WEB DE TECNOLOGIA</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum.scale=1.0">
+	<link rel="stylesheet" type="text/css" href="barradenavegacion.css">
+	<link rel="stylesheet" type="text/css" href="iconos/style.css">
+
+	<script type="text/javascript">
+		function accion(){
+			var clic=document.getElementsByClassName('navegacion');
+			for(var i=0;i<clic.length;i++){
+				clic[i].classList.toggle('desaparecer')
+			}
+		}
+	</script>
+</head>
+<body>
+
+	<header>
+		<div class="cabecera">
+			TECNOLOGÍA EN IMPRESIONES
+		</div>
+	</header>
+	<nav>
+		<div class="menu">
+			<button class="button" onclick="accion()">Menú</button>
+			<a href="#" class="navegacion desaparecer"><span class="icon-home3"></span> Inicio</a>
+			<a href="#" class="navegacion desaparecer"><span class="icon-users"></span> Nostros</a>
+			<a href="#" class="navegacion desaparecer"><span class="icon-cog"></span> Servicios</a>
+			<a href="#" class="navegacion desaparecer"><span class="icon-whatsapp"></span> Contacto</a>
+			<a href="#" class="navegacion desaparecer"><span class="icon-images"></span> Galeria</a>
+		</div>
+	</nav>
+	<section>
+		<div class="contenedor1">
+			<div class="caja1">
+				<p class="titulo1">Impresora 3D 1</p>
+				Impresora 3D Flashforge Adventurer 3 color black/white 100V/240V con tecnología de impresión FDM.<br>
+				<img class="img1" src="img/impresora1.jpg">
+			</div>
+			<div class="caja2">
+				<p class="titulo1">Impresora 3D 2</p>
+				Impresora Creality 3D Ender-3 Pro color negro 100V/265V con tecnología de impresión FDM<br>
+				<img class="img2" src="img/impresora2.jpg">
+			</div>
+			<div class="caja3">
+				<p class="titulo1">Impresora 3D 3</p>
+				Impresora Creality 3D Ender-3X color black 100V - 120V/200V - 240V con tecnología de impresión FDM<br>
+				<img class="img3" src="img/impresora3.jpg">
+			</div>
+		</div>
+
+		<div class="contenedor2">
+			<div class="caja4">
+				<p class="titulo1">Impresora 3D 4</p>
+				Impresora 3D Flashforge Adventurer 3 color black/white 100V/240V con tecnología de impresión FDM.<br>
+				<img class="img4" src="img/impresora4.jpg">
+			</div>
+			<div class="caja5">
+				<p class="titulo1">Impresora 3D 5</p>
+				Impresora Creality 3D Ender-3 Pro color negro 100V/265V con tecnología de impresión FDM<br>
+				<img class="img5" src="img/impresora5.jpg">
+			</div>
+			<div class="caja6">
+				<p class="titulo1">Impresora 3D 6</p>
+				Impresora Creality 3D Ender-3X color black 100V - 120V/200V - 240V con tecnología de impresión FDM<br>
+				<img class="img6" src="img/impresora6.jpg">
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="piepagina">
+			<br/>Todos los derechos reservados tiendaonline@tienda.com actualizacion 17/04/2021. <br/>
+			<span class="icon-facebook2 social"><a href="https://es-la.facebook.com/" target="_blank"> Facebook</a></span>
+			<span class="icon-instagram social"><a href="https://www.instagram.com/?hl=es-la" target="_blank"> Instagram</a></span>
+			<span class="icon-youtube2 social"><a href="https://www.youtube.com/?hl=es-419&gl=MX" target="_blank"> YouTube</a></span>
+			<span class="icon-stackoverflow social"><a href="https://es.stackoverflow.com/" target="_blank"> StackOverflow</a></span>
+		</div>
+	</footer>
+</body>
+</html>

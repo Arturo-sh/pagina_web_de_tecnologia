@@ -1,0 +1,184 @@
+@font-face{
+	font-family: titulos;
+	src:url(fonts/TransformersMovie.ttf);
+}
+@font-face{
+	font-family: contenido;
+	src:url(fonts/SnowyNight.ttf);
+}
+body{
+	background: #A0D5B3;
+	box-sizing: border-box;
+}
+.titulo1{
+	margin: 0;
+	padding: 0;
+	font-family: titulos;
+	font-size: 30px;
+	text-align: center;
+	background: #1DD276;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+.cabecera{
+	background: #3D402F;
+	text-align: center;
+	font-size: 30px;
+	width: 75%;
+	height: 200px;
+	margin: 0px auto;
+	color: #FFFFFF;
+}
+.contenedor1{
+	width: 75%;
+	height: 300px;
+	background: #A23A3A;
+	margin: 0px auto;
+}
+.contenedor2{
+	width: 75%;
+	height: 300px;
+	background: #A23A3A;
+	margin: 0px auto;
+}
+.caja1{
+	width: 35%;
+	height: 300px;
+	background: #F29D9D;
+	float: left;
+	font-family: contenido;
+}
+.caja2{
+	width: 33%;
+	height: 300px;
+	background: #F2DD9D;
+	float: left;
+	font-family: contenido;
+}
+.caja3{
+	width: 32%;
+	height: 300px;
+	background: #E1F29D;
+	float: left;
+	font-family: contenido;
+}
+.img1{
+	width: 300px;
+	height: auto;
+	border-radius: 10px;
+}
+.img2{
+	width: 300px;
+	height: auto;
+	border-radius: 10px;
+}
+.img3{
+	width: 300px;
+	height: auto;
+	border-radius: 10px;
+}
+
+.caja4{
+	width: 35%;
+	height: 300px;
+	background: #F29D9D;
+	float: left;
+	font-family: contenido;
+}
+.caja5{
+	width: 33%;
+	height: 300px;
+	background: #F2DD9D;
+	float: left;
+	font-family: contenido;
+}
+.caja6{
+	width: 32%;
+	height: 300px;
+	background: #E1F29D;
+	float: left;
+	font-family: contenido;
+}
+.img4{
+
+	width: 300px;
+	height: auto;
+	border-radius: 10px;
+}
+.img5{
+
+	width: 300px;
+	height: auto;
+	border-radius: 10px;
+}
+.img6{
+
+	width: 300px;
+	height: auto;
+	border-radius: 10px;
+}
+.piepagina{
+	background: #159D70;
+	width: 75%;
+	height: 70px;
+	margin: 0px auto;
+	text-align: center;
+	color: #ffff;
+}
+.social, a{
+	text-decoration: none;
+	padding: 5px;
+}
+
+@media screen and (max-width: 900px){
+	body{
+		background: green;
+	}
+	.caja1{
+		width: 100%;
+	}
+	.caja2{
+		width: 100%;
+	}
+	.caja3{
+		width: 100%;
+	}
+	.caja4{
+		width: 100%;
+	}
+	.caja5{
+		width: 100%;
+	}
+	.caja6{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	body{
+		background: black;
+	}
+	.caja1{
+		width: 100%;
+	}
+	.caja2{
+		width: 100%;
+	}
+	.caja3{
+		width: 100%;
+	}
+	.caja4{
+		width: 100%;
+	}
+	.caja5{
+		width: 100%;
+	}
+	.caja6{
+		width: 100%;
+	}
+	.piepagina{
+		margin-left: 12.5%;
+		float: left;
+		height: auto;
+	}
+}

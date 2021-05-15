@@ -1,0 +1,44 @@
+.menu{
+	background: #79C32F;
+	height: 50px;
+	width: 75%;
+	margin: 0px auto;
+	display: flex;
+	justify-content: center;
+}
+
+.navegacion{
+	background: #79C32F;
+	padding: 15px 40px;
+	color: #ffff;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.navegacion:hover{
+	background: #5C670F;
+}
+
+.button{
+	background: #79C32F;
+	color: #ffff;
+	padding: 15px 0;
+	display: none;
+
+}
+
+@media screen and (max-width: 1200px){
+
+	.menu{
+		flex-direction: column;
+	}
+	.navegacion{
+		margin: 1px 0;
+	}
+	.button{
+		display: inline-block;
+	}
+	.desaparecer{
+		display: none;
+	}
+}
